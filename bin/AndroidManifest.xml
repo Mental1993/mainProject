@@ -22,28 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="View.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
-        </activity>
-        <activity
-            android:name="View.Sign_in"
-            android:label="@string/title_activity_sign_in" >
-        </activity>
-        <activity
-            android:name="View.Register"
-            android:label="@string/title_activity_register" >
-        </activity>
-        <activity
-            android:name="View.Birthday"
-            android:label="@string/title_activity_birthday" >
-        </activity>
     </application>
-
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
 </manifest>

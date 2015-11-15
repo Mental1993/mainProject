@@ -1,9 +1,6 @@
 package View;
 
 import com.example.mainproject.R;
-import com.example.mainproject.R.id;
-import com.example.mainproject.R.layout;
-import com.example.mainproject.R.menu;
 
 import android.app.Activity;
 import android.os.Bundle;
